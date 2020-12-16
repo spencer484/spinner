@@ -1,5 +1,5 @@
 li:first-child .text{
-  background-color: blue;
+  background-color: white;
 }
 li:nth-child(2) .text{
   background-color: black;
@@ -24,30 +24,32 @@ li:nth-child(8) .text{
 }
 
 
+
 li:first-child {
-  transform: rotate(0deg) skewY(-60deg)
+  transform: rotate(0deg) skewY(-40deg)
 }
 li:nth-child(2) {
-  transform: rotate(45deg) skewY(-60deg)
+  transform: rotate(45deg) skewY(-40deg)
 }
 li:nth-child(3) {
-  transform: rotate(90deg) skewY(-60deg)
+  transform: rotate(90deg) skewY(-40deg)
 }
 li:nth-child(4) {
-  transform: rotate(135deg) skewY(-60deg)
+  transform: rotate(135deg) skewY(-40deg)
 }
 li:nth-child(5) {
-  transform: rotate(180deg) skewY(-60deg)
+  transform: rotate(180deg) skewY(-40deg)
 }
 li:nth-child(6) {
-  transform: rotate(225deg) skewY(-60deg)
+  transform: rotate(225deg) skewY(-40deg)
 }
 li:nth-child(7) {
-  transform: rotate(270deg) skewY(-60deg)
+  transform: rotate(270deg) skewY(-40deg)
 }
 li:nth-child(8) {
-  transform: rotate(315deg) skewY(-60deg)
+  transform: rotate(315deg) skewY(-40deg)
 }
+
 
 .circle{
   width: 25em;
@@ -74,14 +76,14 @@ li{
 .text {
   position: absolute;
   left: -100%;
-  width: 200%;
+  width: 300%;
   height: 200%;
   text-align: center;
   display: block;
   transform: skewY(60deg) rotate(15deg);
   padding-top: 20px;
   cursor: pointer;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
 }

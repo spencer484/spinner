@@ -65,8 +65,6 @@ class App extends React.Component {
           </li>
         </ul>
         <button className="spin-button" onClick={this.startRotation}>SPIN</button>
-
-
       </div>
     );
   }
